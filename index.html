@@ -1,0 +1,67 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="LOGIN.css">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+  integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"/>
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+<link id="favicon" rel="shortcut icon" href="/icons/sdcicon.svg"/>
+
+  <title>[ROB]</title>
+</head>
+<body>
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+                
+                <form id="loginForm" method="post" action="/mypage/page.html" onsubmit="return validateform()">
+                   
+                <h2>LOGIN</h2>
+                    
+                    
+                    <div class="inputbox">
+                        <input type="text" id="username" required>
+                        <label >Email</label>
+                    </div>
+
+                    <div class="inputbox">
+                        <input type="password" id="password"  required>
+                        <label>Password</label>
+                        
+                    </div>
+
+                    <div class="remember">
+                        <label for=""><input type="checkbox"><b>Remember Me </b> 
+                         </label>
+                    </div>
+
+                    <div class="forget">
+                    <label> <b>Forget Password</b> 
+                       <a href="#" ></a></label>
+                  </div>
+                      
+
+
+
+                    <button type="submit"> LOGIN</button>  
+
+                    <div class="register ">
+                        <p>Don't have an account <a href="#">Register</a></p>
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+    </section>
+    <script src="LOGIN.js"></script>
+   
+  
+   
+
+</body>
+</html>
